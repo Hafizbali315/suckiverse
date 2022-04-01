@@ -61,6 +61,30 @@ const Tokenomics = () => {
 					<p>This will be a community run fund. Where you, the community, decide where we go with $SUCK as a whole.</p>
 				</div>
 			</div>
+
+			<div className="dead_serious">
+				<div className="content">
+					<h1>&#60;!-- We're Dead Serious.</h1>
+
+					<p>
+						Our Metaverse is on the way, this is more than just a meme coin. Stay tuned for updates and other advances in our project, as
+						we're for ever evolving.
+					</p>
+					<p>Don't miss out on the $SUCK.</p>
+				</div>
+			</div>
+
+			<div className="metaverse">
+				<div className="content">
+					<h1>The Redlight Metaverse.--&#62;</h1>
+					<p>
+						Through the power of blockchain and VR, we will bring virtual sucking and fucking directly into the comfort of your own home.
+						Anyone can Suck and anyone can Be Sucked in our community-owned Suckiverse. We are prepared for the economy of the future.
+						Creators will be able to earn income through innovative Suck-2-earn tokenomics while bypassing all prostitution laws through the
+						power of VR and Teledildonics.
+					</p>
+				</div>
+			</div>
 		</div>
 	)
 }
