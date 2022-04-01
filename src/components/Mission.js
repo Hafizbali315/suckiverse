@@ -1,7 +1,7 @@
 const Mission = () => {
 	return (
 		<div className="mission">
-			<h1>//Our Mission.</h1>
+			<h1>&#47;&#47;Our Mission.</h1>
 
 			<p>
 				$Suck Token is launching to propel the first ever Suckiverse. You’ve heard of Software as a service, Play to Earn, and the
