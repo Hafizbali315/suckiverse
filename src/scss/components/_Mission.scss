@@ -1,0 +1,40 @@
+.mission {
+	margin: 100px 200px 0;
+
+	h1 {
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 32px;
+		color: #ec166e;
+	}
+
+	p {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 25px;
+		color: #ffffff;
+		margin-top: 50px;
+	}
+}
+
+@include desktop-screen {
+	.mission {
+		margin: 100px 150px 0;
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+@include laptop-screen {
+	.mission {
+		margin: 100px 100px 0;
+	}
+}
+
+@include tablet-screen {
+	.mission {
+		margin: 50px 20px 0;
+	}
+}
