@@ -1,0 +1,91 @@
+.suckmap {
+	margin: 200px 200px 0;
+	padding-bottom: 100px;
+
+	.card {
+		padding: 100px 20px;
+		background: rgba(0, 0, 0, 0.25);
+		border: 3px solid #ec166e;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 61px #ec166e;
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+
+		.content {
+			max-width: 580px;
+			text-align: center;
+
+			.heading {
+				h1 {
+					font-weight: 700;
+					font-size: 50px;
+					line-height: 32px;
+					color: #ec166e;
+				}
+
+				h2 {
+					color: #fff;
+					font-weight: 700;
+					font-size: 40px;
+					line-height: 50px;
+				}
+			}
+
+			p {
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 32px;
+				color: #ffffff;
+				margin-top: 40px;
+			}
+		}
+	}
+}
+
+@include desktop-screen {
+	.suckmap {
+		margin: 200px 150px 0;
+		padding-bottom: 100px;
+	}
+}
+
+@include laptop-screen {
+	.suckmap {
+		margin: 150px 100px 0;
+		padding-bottom: 100px;
+	}
+}
+
+@include tablet-screen {
+	.suckmap {
+		margin: 100px 20px 0;
+		padding-bottom: 100px;
+
+		.card {
+			padding: 50px 20px;
+			border: 1.5px solid #ec166e;
+			box-shadow: 0px 2px 20px #ec166e;
+
+			.content {
+				max-width: 580px;
+
+				.heading {
+					h1 {
+						font-size: 30px;
+					}
+
+					h2 {
+						font-size: 25px;
+						line-height: 30px;
+					}
+				}
+
+				p {
+					font-size: 16px;
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+}
