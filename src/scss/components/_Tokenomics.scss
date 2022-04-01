@@ -1,0 +1,111 @@
+.tokenomics {
+	margin: 200px 200px 0;
+
+	padding-bottom: 100px;
+
+	h1 {
+		text-align: center;
+		font-weight: 700;
+		font-size: 50px;
+		color: #ec166e;
+	}
+
+	.row {
+		margin-top: 100px;
+		display: flex;
+		justify-content: center;
+		gap: 40px;
+		text-align: center;
+		color: #fff;
+		flex-wrap: wrap;
+
+		.col {
+			flex: 0 0 20%;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.img_container {
+				background: rgba(7, 7, 7, 0.33);
+				border: 1px solid #ec166e;
+				box-sizing: border-box;
+				box-shadow: 0px 0px 40px #ec166e;
+
+				width: 220px;
+				height: 220px;
+
+				border-radius: 50%;
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.heading {
+				margin-top: 60px;
+				height: 150px;
+
+				h2 {
+					font-weight: 700;
+					font-size: 25px;
+					line-height: 32px;
+					text-align: center;
+					color: #ec166e;
+				}
+
+				h3 {
+					font-size: 20px;
+					color: #fff;
+				}
+			}
+
+			p {
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 32px;
+				text-align: center;
+				color: #ffffff;
+			}
+		}
+	}
+}
+
+@include desktop-screen {
+	.tokenomics {
+		margin: 200px 150px 0;
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+@include laptop-screen {
+	.tokenomics {
+		margin: 150px 100px 0;
+	}
+}
+
+@include tablet-screen {
+	.tokenomics {
+		margin: 150px 20px 0;
+
+		h1 {
+			font-size: 30px;
+		}
+
+		.row {
+			gap: 50px;
+
+			.col {
+				flex: 0 0 100%;
+
+				.heading {
+					margin-top: 40px;
+					height: auto;
+				}
+			}
+		}
+	}
+}
